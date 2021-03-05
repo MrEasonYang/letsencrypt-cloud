@@ -1,5 +1,10 @@
 package repo
 
+import (
+    "io"
+    "os"
+)
+
 // GetSlave is the func to get the specified slave.
 func GetSlave() {
 
@@ -18,4 +23,12 @@ func DeleteSlave() {
 // SaveSlave is the func to add or update a slave.
 func SaveSlave() {
 
+}
+
+func readFile() {
+
+}
+
+func writeFile() {
+	
 }
